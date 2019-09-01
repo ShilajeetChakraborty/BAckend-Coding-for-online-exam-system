@@ -197,7 +197,7 @@ app.config.update(dict(
     MAIL_PORT = 587,
     MAIL_USE_TLS = True,
     MAIL_USE_SSL = False,
-    MAIL_USERNAME = 'debottam@thirdeyedata.io',
+    MAIL_USERNAME = 'chakraborty.shilajeet145@gmail.com',
     MAIL_PASSWORD = 'mniag12345&*',
 ))
 
@@ -206,7 +206,7 @@ mail = Mail(app)
 @app.route("/sendMail")
 def sendMail():
 
-    msg = Message("Hello",sender="debottam@thirdeyedata.io",recipients=["debottam@thirdeyedata.io"])
+    msg = Message("Hello",sender="chakraborty.shilajeet145@gmail.com",recipients=["chakraborty.shilajeet14@gmail.com"])
     msg.body = "Hi, your cv is shortlisted. Here is the link for the coding round. Please enter into the link to proceed : http://localhost:4200/codingEnv"
 
     mail.send(msg)
