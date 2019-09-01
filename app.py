@@ -1,3 +1,5 @@
+#this is the back.end program only.
+
 import json
 import subprocess
 
@@ -41,6 +43,7 @@ def get_skills():
 
     return {"skills": skl}
 
+# once used for creating the table and then close the hashs.
 
 # #First Name:
 # Last Name:
