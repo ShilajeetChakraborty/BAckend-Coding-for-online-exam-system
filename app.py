@@ -1,4 +1,4 @@
-#this is the back.end program only.
+#this is the back end program only.
 
 import json
 import subprocess
